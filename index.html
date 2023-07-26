@@ -5,9 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabuada</title>
   <link rel="stylesheet" href="estilos/geral.css">
+  <link rel="stylesheet" href="estilos/main.css">
   <script src="script.js" defer></script>
 </head>
 <body>
+  <main class="main">
+    <h1>Tabuada</h1>
+
+    <form class="form">
+      <div class="form-control">
+        <label for="num">Tabuada do: </label>
+        <input type="number" name="num" id="num">  
+      </div>
+
+      <div class="form-control">
+        <label for="max">Multiplicar até: </label>
+        <input type="number" name="max" id="max" value="10">  
+      </div>
   
+      <input type="submit" value="Calcular" class="submit-btn">
+    </form>
+
+    <div class="container-resultado">
+      <h2>Resultado</h2>
+    </div>
+
+  </main>
 </body>
 </html>
